@@ -1,0 +1,10 @@
+{
+  "name": "nareshit",
+  "version": "0.0.1",
+  "dependencies": {
+    "mysql": "latest",
+    "body-parser": "latest",
+    "express": "latest",
+    "jwt-simple": "latest"
+  }
+}

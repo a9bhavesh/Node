@@ -1,0 +1,12 @@
+{
+  "name": "Node js",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "latest",
+    "body-parser": "latest",
+    "mysql": "latest",
+    "mongodb": "^2.2.35",
+    "multer": "latest",
+    "jwt-simple": "latest"
+  }
+}

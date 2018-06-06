@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    function fun_one(bh1,bh2,bh3) {
+        return bh1()+"--"+bh2()+"--"+bh3();
+    }
+    function fun_two() {
+        return 'Angular Js'
+    }
+    function fun_three() {
+        return 'Node s'
+    }
+    function fun_four() {
+        return "Mongo Db";
+    }
+    document.write(fun_one(fun_two, fun_three,fun_four));
+    </script>
+</html>

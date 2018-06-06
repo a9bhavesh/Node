@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Bhavesh Patil\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express --save
+
+PATH: 
+  C:\Program Files\Broadcom\Broadcom 802.11;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Users\Bhavesh Patil\AppData\Roaming\npm;C:\Users\Bhavesh Patil\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "Node js",
+    "version": "0.0.1",
+    "dependencies": {
+      "express": "latest",
+      "body-parser": "latest",
+      "mysql": "latest",
+      "mongodb": "^2.2.35",
+      "multer": "latest",
+      "jwt-simple": "latest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: package.json: Name contains illegal characters
+      at new MessageError (C:\Users\Bhavesh Patil\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at module.exports.exports.default (C:\Users\Bhavesh Patil\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:37549:13)
+      at C:\Users\Bhavesh Patil\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:52434:51
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Bhavesh Patil\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\Bhavesh Patil\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
+      at <anonymous>
